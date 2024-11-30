@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\fragment_challenge.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_challenge.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\fragment_show_first_goal.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_show_first_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\fragment_record.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\item_recyclerview.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\item_recyclerview.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\fragment_goal.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\item_challenge.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\item_challenge.xml"
+    },
+    {
+        "merged": "com.example.healthappproject.app-mergeDebugResources-52:/layout/fragment_recomend.xml",
+        "source": "com.example.healthappproject.app-main-55:/layout/fragment_recomend.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\fragment_progressbar.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_progressbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\youtube_thumbnail_item.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\youtube_thumbnail_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\fragment_recomend.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_recomend.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\fragment_blank.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_blank.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\fragment_edit_item_page.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_edit_item_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-mergeDebugResources-52:\\layout\\fragment_diet.xml",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_diet.xml"
+    }
+]

@@ -1,0 +1,27 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 비어있는 배경 -->
+    <item>
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="3"
+            android:thicknessRatio="7"
+            android:useLevel="false">
+            <solid android:color="#D1C4E9" /> <!-- 비어있는 색상 (연한 보라) -->
+        </shape>
+    </item>
+
+    <!-- 채워질 진행 색상 -->
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270">
+            <shape
+                android:shape="ring"
+                android:innerRadiusRatio="3"
+                android:thicknessRatio="7"
+                android:useLevel="true"> <!-- useLevel을 true로 설정 -->
+                <solid android:color="#673AB7" /> <!-- 진행 색상 (보라색) -->
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
