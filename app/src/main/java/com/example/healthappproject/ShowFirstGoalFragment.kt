@@ -1,14 +1,4 @@
 package com.example.healthappproject
-/**
- * ShowFirstGoalFragment.kt
- * + MainActivity
- * + GoalFragment
- * 작성자 : 우상천
- * 목적 : GoalFragment의 첫번째 리스트 내용을 표시하는 프래그먼트를 구현
- *       애플리케이션 메인의 최상단, Goal페이지 최상단에서 최우선 목표를 보여주는 기능
- * 사용 방식 : 사용할 위치에 존재하는 프레임 레이아웃에 replace를 해서 사용한다
- * 사용 파일 : MainActivity , GoalFragment
- * **/
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -17,6 +7,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.healthappproject.databinding.FragmentShowFirstGoalBinding
+import com.example.healthappproject.viewmodels.RecyclerViewModel
 
 class ShowFirstGoalFragment : Fragment() {
 
@@ -36,17 +27,23 @@ class ShowFirstGoalFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentShowFirstGoalBinding.inflate(inflater, container, false)
-        viewModel = ViewModelProvider(this).get(RecyclerViewModel::class.java)
+        viewModel = ViewModelProvider(requireActivity()).get(RecyclerViewModel::class.java)
         return binding?.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        binding?.run {
+            viewModel?.itemList?.observe(viewLifecycleOwner) { items ->
+        // 첫 번째 아이템이 있는 경우에만 업데이트
+                if (items.isNotEmpty()) {
+                    firstContents.text = viewModel?.getFirstItem()
+                } else {
+                    firstContents.text = viewModel?.getFirstItem()
+                }
+    }
+}
 
-        binding?.let{
-            //it.firstContents.text = viewModel?.getFirstItem()
-
-        }
     }
 
     companion object {

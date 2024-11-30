@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "989034661412",
+    "firebase_url": "https://healthappproject-acb70-default-rtdb.firebaseio.com",
+    "project_id": "healthappproject-acb70",
+    "storage_bucket": "healthappproject-acb70.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989034661412:android:6607a87bf973caa7f13ab1",
+        "android_client_info": {
+          "package_name": "com.example.healthappproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSd9LkAauImjLDzPu3OcHQ2fMW9rK9Di4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

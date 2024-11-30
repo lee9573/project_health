@@ -1,9 +1,5 @@
-package com.example.healthappproject
+package com.example.healthappproject.viewmodels
 
-import android.text.Editable
-import android.text.TextUtils.replace
-import android.widget.EditText
-import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.ItemTouchHelper
@@ -13,6 +9,8 @@ import androidx.recyclerview.widget.ItemTouchHelper.END
 import androidx.recyclerview.widget.ItemTouchHelper.START
 import androidx.recyclerview.widget.ItemTouchHelper.UP
 import androidx.recyclerview.widget.RecyclerView
+import com.example.healthappproject.RecyclerViewAdapter
+import com.example.healthappproject.viewmodels.BaseViewModel
 
 //Goal Fragment의 데이터 클래스
 data class goalViewItem(
@@ -24,11 +22,9 @@ class RecyclerViewModel : BaseViewModel() {
     private val _itemList = MutableLiveData<MutableList<goalViewItem>>(mutableListOf())
     val itemList: LiveData<MutableList<goalViewItem>> get() = _itemList
 
-    fun addItem() {
+    fun addItem(title: String , text: String , checked: Boolean = false) {
         // 기본 아이템 생성
-        val newItem = goalViewItem( title = "title",
-                                    contents = "contents",
-                                    checked = false )
+        val newItem = goalViewItem(title , text , checked)
 
         // 현재 리스트에 추가
         if (_itemList.value == null) {
@@ -73,10 +69,15 @@ class RecyclerViewModel : BaseViewModel() {
     }
 
     // 1번 리스트의 내용을 반환하는 메서드
-    fun getFirstItem() : String {
-        val currentList = _itemList.value ?: return ""
-        return "${currentList[0].title}\n${currentList[0].contents}"
+    fun getFirstItem(): String {
+        val currentList = _itemList.value ?: return "No data"
+        return if (currentList.isNotEmpty()) {
+            "${currentList[0].title}\n${currentList[0].contents}"
+        } else {
+            "No data"
+        }
     }
+
 
     val itemTouchHelper by lazy {
         val simpleItemlTouchCallback = object : ItemTouchHelper.SimpleCallback(UP or DOWN or START or END, 0) {
@@ -115,6 +116,8 @@ class RecyclerViewModel : BaseViewModel() {
 
                 viewHolder?.itemView?.alpha = 1f
             }
+
+
 
         }
         ItemTouchHelper(simpleItemlTouchCallback)
