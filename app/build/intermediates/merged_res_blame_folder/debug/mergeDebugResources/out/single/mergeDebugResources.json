@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_ic_aerobic.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\ic_aerobic.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_button1.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\button1.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_rectangle_button.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\rectangle_button.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_youtube_thumbnail_item.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\youtube_thumbnail_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_menu.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\menu.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\navigation_nav_main.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\navigation\\nav_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_baseline_food_bank_24.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\baseline_food_bank_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_custom_circle.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\custom_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_button2.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\button2.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_border.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_fragment_recomend.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_recomend.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_item_recyclerview.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\item_recyclerview.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_dashed_border.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\dashed_border.xml"
+    },
+    {
+        "merged": "com.example.healthappproject.app-debug-53:/layout_fragment_recomend.xml.flat",
+        "source": "com.example.healthappproject.app-main-55:/layout/fragment_recomend.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_baseline_splitscreen_24.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\baseline_splitscreen_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_square_button.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\square_button.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_fragment_challenge.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_challenge.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_fragment_blank.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_blank.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_baseline_star_rate_24.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\baseline_star_rate_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_rectangle_5.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\rectangle_5.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\baseline_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_ic_arm.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\ic_arm.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_ic_chest.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\ic_chest.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_fragment_diet.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_diet.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_youtube_icon.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\youtube_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_menu_button.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\menu_button.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_rounded_square.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\rounded_square.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_image_button.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\image_button.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_fragment_edit_item_page.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_edit_item_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_fragment_progressbar.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_progressbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_ic_back.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\ic_back.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_fragment_show_first_goal.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_show_first_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_button0.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\button0.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_fragment_goal.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_fragment_record.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\fragment_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\menu_menu_top.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\menu\\menu_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_ic_leg.png.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\ic_leg.png"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\drawable_baseline_edit_note_24.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\drawable\\baseline_edit_note_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-debug-53:\\layout_item_challenge.xml.flat",
+        "source": "C:\\Users\\wonwo\\.gradle\\daemon\\8.9\\com.example.healthappproject.app-main-55:\\layout\\item_challenge.xml"
+    }
+]

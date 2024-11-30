@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.healthappproject.MainFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank"/>
+    <fragment
+        android:id="@+id/goalFragment"
+        android:name="com.example.healthappproject.GoalFragment"
+        android:label="fragment_goal"
+        tools:layout="@layout/fragment_goal"/>
+    <fragment
+        android:id="@+id/challengeFragment"
+        android:name="com.example.healthappproject.ChallengeFragment"
+        android:label="fragment_challenge"
+        tools:layout="@layout/fragment_challenge" />
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.example.healthappproject.RecordFragment"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" />
+    <fragment
+        android:id="@+id/editItemPageFragment"
+        android:name="com.example.healthappproject.EditItemPageFragment"
+        android:label="EditItemPageFragment" />
+    <fragment
+        android:id="@+id/dietFragment"
+        android:name="com.example.healthappproject.DietFragment"
+        android:label="Diet Fragment"
+        tools:layout="@layout/fragment_diet">
+
+        <!-- Navigate to RecomendFragment -->
+        <action
+            android:id="@+id/action_dietFragment_to_recomendFragment"
+            app:destination="@id/recomendFragment">
+            <argument
+                android:name="mealType"
+                app:argType="string" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/recomendFragment"
+        android:name="com.example.healthappproject.RecomendFragment"
+        android:label="Recomend Fragment"
+        tools:layout="@layout/fragment_recomend">
+
+        <!-- Action to navigate to DietFragment -->
+        <action
+            android:id="@+id/action_recomendFragment_to_dietFragment"
+            app:destination="@id/dietFragment">
+            <!-- 전달될 값들 -->
+            <argument
+                android:name="name_input"
+                app:argType="string" />
+            <argument
+                android:name="kcal_input"
+                app:argType="string" />
+            <argument
+                android:name="g_input"
+                app:argType="string" />
+            <argument
+                android:name="carbo_input"
+                app:argType="string" />
+            <argument
+                android:name="protein_input"
+                app:argType="string" />
+            <argument
+                android:name="fat_input"
+                app:argType="string" />
+
+        </action>
+
+    </fragment>
+</navigation>
