@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.ItemTouchHelper.START
 import androidx.recyclerview.widget.ItemTouchHelper.END
 import com.example.healthappproject.databinding.ItemRecyclerviewBinding
 import androidx.recyclerview.widget.RecyclerView
+import com.example.healthappproject.viewmodels.goalViewItem
+
 //데이터 클래스, 항목 xml, 그리고 그에대한 어댑터는 한번만 설정해놓고, 나머지는 이 리사이클러 뷰를 가진 뷰에서 로직을 처리한다.
 class RecyclerViewAdapter(private var list : MutableList<goalViewItem>,
                           private val onItemClick: (Int) -> Unit
@@ -37,6 +39,8 @@ class RecyclerViewAdapter(private var list : MutableList<goalViewItem>,
         }
 
     }
+
+
 
     override fun getItemCount(): Int = list.size
     //처음 초기화 될 때,
