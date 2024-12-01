@@ -38,6 +38,7 @@
                 android:textSize="20sp" />
 
             <Button
+<<<<<<< HEAD
                 android:id="@+id/input_btn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -45,6 +46,8 @@
                 android:text="입력" />
 
             <Button
+=======
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
                 android:id="@+id/search_btn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -110,6 +113,16 @@
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
 
+<<<<<<< HEAD
+=======
+                        <Button
+                            android:id="@+id/recomend_btn"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="추천" />
+
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -201,11 +214,18 @@
 
                         <LinearLayout
                             android:id="@+id/recomend_lable"
+<<<<<<< HEAD
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:orientation="vertical"
                             tools:layout_weight="1"
                             tools:layout_width="wrap_content">
+=======
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            tools:layout_weight="1">
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
 
                             <TextView
                                 android:id="@+id/meal_txt"
@@ -246,7 +266,11 @@
 
                         <LinearLayout
                             android:id="@+id/breakfast_re"
+<<<<<<< HEAD
                             android:layout_width="wrap_content"
+=======
+                            android:layout_width="match_parent"
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
                             android:layout_height="match_parent"
                             android:orientation="vertical"
                             tools:layout_weight="1">
@@ -286,7 +310,11 @@
 
                         <LinearLayout
                             android:id="@+id/lunch_re"
+<<<<<<< HEAD
                             android:layout_width="wrap_content"
+=======
+                            android:layout_width="match_parent"
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
                             android:layout_height="match_parent"
                             android:orientation="vertical"
                             tools:layout_weight="1">
@@ -326,7 +354,11 @@
 
                         <LinearLayout
                             android:id="@+id/dinner_re"
+<<<<<<< HEAD
                             android:layout_width="wrap_content"
+=======
+                            android:layout_width="match_parent"
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
                             android:layout_height="match_parent"
                             android:orientation="vertical"
                             tools:layout_weight="1">
@@ -366,11 +398,18 @@
 
                         <LinearLayout
                             android:id="@+id/snack_re"
+<<<<<<< HEAD
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:orientation="vertical"
                             tools:layout_weight="1"
                             tools:layout_width="wrap_content">
+=======
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            tools:layout_weight="1">
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
 
                             <TextView
                                 android:id="@+id/snack_re_txt"
@@ -405,6 +444,7 @@
 
                         </LinearLayout>
 
+<<<<<<< HEAD
                         <Button
                             android:id="@+id/recomend_btn"
                             android:layout_width="wrap_content"
@@ -412,6 +452,8 @@
                             android:layout_weight="1"
                             android:text="추천" />
 
+=======
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
                     </LinearLayout>
 
                 </LinearLayout>

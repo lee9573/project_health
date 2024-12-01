@@ -5,7 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+<<<<<<< HEAD
 import android.widget.Toast
+=======
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.healthappproject.databinding.FragmentEditItemPageBinding
@@ -46,6 +49,7 @@ class EditItemPageFragment : DialogFragment() {
             saveButton.setOnClickListener() {
                 val title = editTitle.text.toString()
                 val text = editText.text.toString()
+<<<<<<< HEAD
                 if(title.isNotEmpty() && text.isNotEmpty()) {
                     recyclerViewModel?.addItem(title, text)
                     dismiss()
@@ -53,6 +57,11 @@ class EditItemPageFragment : DialogFragment() {
                 else {
                     Toast.makeText(requireContext(), "Input text!", Toast.LENGTH_SHORT).show()
                 }
+=======
+
+                recyclerViewModel?.addItem(title, text)
+                dismiss()
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
             }
         }
 

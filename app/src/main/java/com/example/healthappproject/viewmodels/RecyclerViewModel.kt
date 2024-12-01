@@ -11,11 +11,14 @@ import androidx.recyclerview.widget.ItemTouchHelper.UP
 import androidx.recyclerview.widget.RecyclerView
 import com.example.healthappproject.RecyclerViewAdapter
 import com.example.healthappproject.viewmodels.BaseViewModel
+<<<<<<< HEAD
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+=======
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
 
 //Goal Fragment의 데이터 클래스
 data class goalViewItem(
@@ -24,6 +27,7 @@ data class goalViewItem(
     var checked : Boolean)
 //일반 클래스와 다름없다. 단지 라이브 데이터만 있을 뿐이다.
 class RecyclerViewModel : BaseViewModel() {
+<<<<<<< HEAD
     val firebaseUrl = "https://healthappfirebase-ed61c-default-rtdb.firebaseio.com/"
     private val database: DatabaseReference = FirebaseDatabase.getInstance(firebaseUrl).getReference("sangcheon")
     //FirebaseDatabase.getInstacne() : 구글 서비스 제이슨에 있는 파이어베이스 주소를 가져온다.
@@ -73,6 +77,11 @@ class RecyclerViewModel : BaseViewModel() {
         }
     }
 
+=======
+    private val _itemList = MutableLiveData<MutableList<goalViewItem>>(mutableListOf())
+    val itemList: LiveData<MutableList<goalViewItem>> get() = _itemList
+
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
     fun addItem(title: String , text: String , checked: Boolean = false) {
         // 기본 아이템 생성
         val newItem = goalViewItem(title , text , checked)
@@ -99,15 +108,44 @@ class RecyclerViewModel : BaseViewModel() {
         }
     }
 
+<<<<<<< HEAD
     // 1번째 아이템의 title을 반환하는 메서드
     fun getTitle(): String {
         val currentList = _itemList.value ?: return "No data"
         return if (currentList.isNotEmpty()) {
             "${currentList[0].title}"
+=======
+    fun getListData(mode : String , index : Int) : String {
+        //해당 리스트의 데이터를 반환하는 함수
+        val currentList = _itemList.value ?: return ""
+        if (mode == "contents") {
+            return currentList[index].contents
+        }
+        else if (mode == "title") {
+            return currentList[index].title
+        }
+        else return ""
+    }
+
+    fun updateListData(title : String , contents : String , index: Int) {
+        //해당 리스트의 데이터를 업데이트 하는 함수
+        val currentList = _itemList.value ?: return
+        currentList[index].title = title
+        currentList[index].contents = contents
+        _itemList.value = currentList
+    }
+
+    // 1번 리스트의 내용을 반환하는 메서드
+    fun getFirstItem(): String {
+        val currentList = _itemList.value ?: return "No data"
+        return if (currentList.isNotEmpty()) {
+            "${currentList[0].title}\n${currentList[0].contents}"
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
         } else {
             "No data"
         }
     }
+<<<<<<< HEAD
     //1번째 아이템의 contents를 반환하는 메서드
     fun getContents(): String {
         val currentList = _itemList.value ?: return " "
@@ -137,11 +175,18 @@ class RecyclerViewModel : BaseViewModel() {
         val simpleItemTouchCallback = object : ItemTouchHelper.SimpleCallback(
             ItemTouchHelper.UP or ItemTouchHelper.DOWN or ItemTouchHelper.START or ItemTouchHelper.END, 0
         ) {
+=======
+
+
+    val itemTouchHelper by lazy {
+        val simpleItemlTouchCallback = object : ItemTouchHelper.SimpleCallback(UP or DOWN or START or END, 0) {
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
             override fun onMove(
                 recyclerView: RecyclerView,
                 viewHolder: RecyclerView.ViewHolder,
                 target: RecyclerView.ViewHolder
             ): Boolean {
+<<<<<<< HEAD
                 val adapter = recyclerView.adapter as RecyclerViewAdapter
 
                 // 드래그 시작 위치 저장
@@ -188,4 +233,46 @@ class RecyclerViewModel : BaseViewModel() {
 
         ItemTouchHelper(simpleItemTouchCallback)
     }
+=======
+
+                val adapter = recyclerView.adapter as RecyclerViewAdapter
+                val from = viewHolder.adapterPosition
+                val to = target.adapterPosition
+
+                adapter.notifyItemMoved(from, to)
+
+                return true
+            }
+
+            override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
+
+            }
+
+            override fun onSelectedChanged(viewHolder: RecyclerView.ViewHolder?, actionState: Int) {
+                super.onSelectedChanged(viewHolder, actionState)
+
+                if(actionState == ACTION_STATE_DRAG){
+                    viewHolder?.itemView?.alpha = 0.5f
+                }
+            }
+
+            override fun clearView(
+                recyclerView: RecyclerView,
+                viewHolder: RecyclerView.ViewHolder
+            ) {
+                super.clearView(recyclerView, viewHolder)
+
+                viewHolder?.itemView?.alpha = 1f
+            }
+
+
+
+        }
+        ItemTouchHelper(simpleItemlTouchCallback)
+
+    }
+
+
+
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
 }

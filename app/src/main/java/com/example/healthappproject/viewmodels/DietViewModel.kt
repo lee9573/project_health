@@ -22,6 +22,12 @@ class DietViewModel : ViewModel() {
     var snackd = 0.0
 
     var perd = 0.0
+<<<<<<< HEAD
+=======
+    var perdc = 0.0
+    var perdp = 0.0
+    var perdf = 0.0
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
 
     // Meal 데이터를 업데이트하는 함수
     fun updateMealData(
@@ -43,6 +49,12 @@ class DietViewModel : ViewModel() {
 
         // 퍼센트 계산
         perd = ((eatKcald.toDouble() / totalKcald.toDouble()) * 100).toDouble()
+<<<<<<< HEAD
+=======
+        perdc = ((eatCarbod.toDouble() / totalCarbod.toDouble()) * 100).toDouble()
+        perdp = ((eatProteind.toDouble() / totalProteind.toDouble()) * 100).toDouble()
+        perdf = ((eatFatd.toDouble() / totalFatd.toDouble()) * 100).toDouble()
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
     }
 
 
@@ -103,9 +115,15 @@ class DietViewModel : ViewModel() {
     fun getProgressData(): Map<String, Double> {
         return mapOf(
             "progressKcal" to perd,
+<<<<<<< HEAD
             "progressCarbo" to eatCarbod,
             "progressProtein" to eatProteind,
             "progressFat" to eatFatd
+=======
+            "progressCarbo" to perdc,
+            "progressProtein" to perdp,
+            "progressFat" to perdf
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
         )
     }
 }

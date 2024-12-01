@@ -59,6 +59,10 @@ dependencies {
 
     implementation(libs.firebase.database)
     implementation(libs.firebase.database.v2100)
+<<<<<<< HEAD
+=======
+    implementation("com.google.firebase:firebase-database:21.0.0'")
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
     implementation(libs.glide)
     implementation (libs.androidx.viewpager2)
     annotationProcessor(libs.compiler)

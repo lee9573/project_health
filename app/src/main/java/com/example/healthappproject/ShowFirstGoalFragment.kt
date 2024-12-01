@@ -37,11 +37,17 @@ class ShowFirstGoalFragment : Fragment() {
             viewModel?.itemList?.observe(viewLifecycleOwner) { items ->
         // 첫 번째 아이템이 있는 경우에만 업데이트
                 if (items.isNotEmpty()) {
+<<<<<<< HEAD
                     firstContents.text = viewModel?.getTitle()
                     secondContents.text = viewModel?.getContents()
                 } else {
                     firstContents.text = viewModel?.getTitle()
                     secondContents.text = viewModel?.getContents()
+=======
+                    firstContents.text = viewModel?.getFirstItem()
+                } else {
+                    firstContents.text = viewModel?.getFirstItem()
+>>>>>>> 7c17066cbd6f6de34028824601435ae579813dec
                 }
     }
 }
